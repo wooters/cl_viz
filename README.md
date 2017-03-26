@@ -19,6 +19,10 @@ This `./cl_viz.py` command will put the dependency graph image into `example.png
 You can also give multiple `-o` options to get output in several
 formats e.g. `./cl_viz.py -o example.png -o example.eps c`
 
+The look of the graph, edges, and nodes can be customized by passing in json objects on the 
+command line (see `--graphattrs`, `--nodeattrs`, `--rootnodeattrs`, and `--edgeattrs`) with
+[graphviz attributes](http://www.graphviz.org/doc/info/attrs.html).
+
 ## Requirements
 
 You need to have access to a codalab server (e.g. http://www.codalab.org) and the
