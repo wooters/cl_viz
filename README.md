@@ -17,7 +17,7 @@ This `./cl_viz.py` command will put the dependency graph image into `example.png
 ![Example cl_viz.py output](/example.png?raw=true "example.png")
 
 You can also give multiple `-o` options to get output in several
-formats e.g. `./cl_vix.py -o example.png -o example.eps c`
+formats e.g. `./cl_viz.py -o example.png -o example.eps c`
 
 ## Requirements
 
